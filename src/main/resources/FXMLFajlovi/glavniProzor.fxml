@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.epj2.kontroleri.GlavniProzorController">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="900.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="bPokreniSimulaciju" mnemonicParsing="false" onAction="#pokreniSimulaciju" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #42b72a;" text="Pokreni simulaciju" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <VBox alignment="CENTER_RIGHT" prefHeight="105.0" prefWidth="467.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="200.0" style="-fx-font-weight: bold;" text="DATUM I VRIJEME:">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbDatumIVrijeme" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="-fx-font-weight: bold" textFill="#42b72a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="558.0" prefWidth="900.0" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <VBox fx:id="vbGrid" prefHeight="529.0" prefWidth="700.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="68.0" prefWidth="900.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="bVozila" disable="true" mnemonicParsing="false" onAction="#prikaziVozila" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #63a9f5;" text="Vozila">
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="bKvarovi" disable="true" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #63a9f5;" text="Kvarovi">
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="bRezultatiPoslovanja" disable="true" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #63a9f5;" text="Rezultati poslovanja">
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="bNajveciPrihodi" disable="true" mnemonicParsing="false" onAction="#prikaziNajvecePrihode" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #63a9f5;" text="Najveći prihodi">
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

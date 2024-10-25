@@ -1,0 +1,16 @@
+Račun za iznajmljivanje
+=========================
+Korisnik: K1
+      pasos: 45952
+      vozacka dozvola: 9718
+ID Vozila: A2
+Trajanje: 15 sekundi
+Kvar: ne
+Promocija: da
+Broj iznajmljivanja: 5
+Prešlo u širi dio grada: true
+Osnovna cijena: 18.00
+Iznos: 41.40
+Promocija: -4.14
+=========================
+Ukupna cijena za plaćanje: 37.26

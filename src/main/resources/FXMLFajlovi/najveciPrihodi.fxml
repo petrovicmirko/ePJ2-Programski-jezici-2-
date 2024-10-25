@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.epj2.kontroleri.NajveciPrihodiController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="250.0">
+         <children>
+            <Label text="Automobili">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tvAutomobili" prefHeight="200.0" prefWidth="250.0">
+              <columns>
+                <TableColumn fx:id="tcIdAutomobila" prefWidth="100.0" text="Identifikator" />
+                <TableColumn fx:id="tcPrihodAutomobila" prefWidth="147.0" text="Prihod" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="250.0">
+         <children>
+            <Label text="Bicikli">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tvBicikli" prefHeight="200.0" prefWidth="250.0">
+              <columns>
+                <TableColumn fx:id="tcIdBicikla" prefWidth="100.0" text="Identifikator" />
+                <TableColumn fx:id="tcPrihodBicikla" prefWidth="147.0" text="Prihod" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="250.0">
+         <children>
+            <Label text="Trotineti">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tvTrotineti" prefHeight="200.0" prefWidth="250.0">
+              <columns>
+                <TableColumn fx:id="tcIdTrotineta" prefWidth="100.0" text="Identifikator" />
+                <TableColumn fx:id="tcPrihodTrotineta" prefWidth="147.0" text="Prihod" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</HBox>

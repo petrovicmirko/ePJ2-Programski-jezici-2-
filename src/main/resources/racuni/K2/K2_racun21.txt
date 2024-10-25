@@ -1,0 +1,13 @@
+Račun za iznajmljivanje
+=========================
+Korisnik: K2
+ID Vozila: T10
+Trajanje: 12 sekundi
+Kvar: ne
+Promocija: ne
+Broj iznajmljivanja: 9
+Prešlo u širi dio grada: false
+Osnovna cijena: 38.40
+Iznos: 57.60
+=========================
+Ukupna cijena za plaćanje: 57.60

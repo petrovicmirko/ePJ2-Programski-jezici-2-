@@ -1,0 +1,15 @@
+Račun za iznajmljivanje
+=========================
+Korisnik: K5
+      licna karta: 515625
+      vozacka dozvola: 6412
+ID Vozila: A1
+Trajanje: 13 sekundi
+Kvar: da
+Promocija: ne
+Broj iznajmljivanja: 1
+Prešlo u širi dio grada: true
+Osnovna cijena: 0.00
+Iznos: 0.00
+=========================
+Ukupna cijena za plaćanje: 0.00

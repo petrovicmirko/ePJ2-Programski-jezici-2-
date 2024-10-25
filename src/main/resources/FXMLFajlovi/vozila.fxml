@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="740.0" tabClosingPolicy="UNAVAILABLE" tabMinWidth="2.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.epj2.kontroleri.VozilaController">
+  <tabs>
+    <Tab text="Automobili">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tvAutomobili" prefHeight="200.0" prefWidth="740.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="identifikatorAutomobil" prefWidth="92.0" text="Identifikator" />
+                      <TableColumn fx:id="proizvodjacAutomobil" prefWidth="93.0" text="Proizvođač" />
+                        <TableColumn fx:id="modelAutomobil" prefWidth="92.0" text="Model" />
+                        <TableColumn fx:id="cijenaNabavkeAutomobil" prefWidth="93.0" text="Cijena nabavke" />
+                        <TableColumn fx:id="nivoBaterijeAutomobil" prefWidth="92.0" text="Nivo baterije" />
+                        <TableColumn fx:id="datumNabavkeAutomobil" prefWidth="93.0" text="Datum nabavke" />
+                        <TableColumn fx:id="opisAutomobil" prefWidth="92.0" text="Opis" />
+                        <TableColumn fx:id="brojPutnikaAutomobil" prefWidth="93.0" text="Broj putnika" />
+                    </columns>
+                  </TableView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Bicikli">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tvBicikli" prefHeight="200.0" prefWidth="740.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="identifikatorBicikl" prefWidth="123.0" text="Identifikator" />
+                      <TableColumn fx:id="proizvodjacBicikl" prefWidth="123.0" text="Proizvođač" />
+                        <TableColumn minWidth="0.0" prefWidth="0.0" text="Column X" />
+                        <TableColumn fx:id="modelBicikl" prefWidth="123.0" text="Model" />
+                        <TableColumn fx:id="cijenaNabavkeBicikl" prefWidth="124.0" text="Cijena nabavke" />
+                        <TableColumn fx:id="nivoBaterijeBicikl" prefWidth="124.0" text="Nivo baterije" />
+                        <TableColumn fx:id="dometBicikl" prefWidth="123.0" text="Domet" />
+                    </columns>
+                  </TableView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Trotineti">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tvTrotineti" prefHeight="200.0" prefWidth="740.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columns>
+                        <TableColumn fx:id="identifikatorTrotinet" prefWidth="123.0" text="Identifikator" />
+                        <TableColumn fx:id="proizvodjacTrotinet" prefWidth="123.0" text="Proizvođač" />
+                        <TableColumn minWidth="0.0" prefWidth="0.0" text="Column X" />
+                        <TableColumn fx:id="modelTrotinet" prefWidth="123.0" text="Model" />
+                        <TableColumn fx:id="cijenaNabavkeTrotinet" prefWidth="124.0" text="Cijena nabavke" />
+                        <TableColumn fx:id="nivoBaterijeTrotinet" prefWidth="123.0" text="Nivo baterije" />
+                        <TableColumn fx:id="maksimalnaBrzinaTrotinet" prefWidth="123.0" text="Maksimalna brzina" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

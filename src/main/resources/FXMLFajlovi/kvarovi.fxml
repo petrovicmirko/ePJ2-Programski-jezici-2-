@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.epj2.kontroleri.KvaroviController">
+   <children>
+      <TableView fx:id="tvKvarovi" prefHeight="416.0" prefWidth="740.0">
+        <columns>
+          <TableColumn fx:id="prevoznoSredstvo" prefWidth="185.0" text="Prevozno sredstvo" />
+          <TableColumn fx:id="identifikator" prefWidth="185.0" text="Identifikator" />
+            <TableColumn fx:id="vrijeme" prefWidth="185.0" text="Vrijeme" />
+            <TableColumn fx:id="opis" prefWidth="185.0" text="Opis" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
